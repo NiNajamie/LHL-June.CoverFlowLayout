@@ -13,6 +13,7 @@
 		96CB32231D381C8000FE0A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CB32221D381C8000FE0A7C /* Assets.xcassets */; };
 		96CB32261D381C8000FE0A7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CB32241D381C8000FE0A7C /* LaunchScreen.storyboard */; };
 		96CB322F1D381D4B00FE0A7C /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CB322E1D381D4B00FE0A7C /* CollectionViewController.m */; };
+		96CB32321D38218700FE0A7C /* CoverFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CB32311D38218700FE0A7C /* CoverFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		96CB32271D381C8000FE0A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96CB322D1D381D4B00FE0A7C /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
 		96CB322E1D381D4B00FE0A7C /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		96CB32301D38218700FE0A7C /* CoverFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverFlowLayout.h; sourceTree = "<group>"; };
+		96CB32311D38218700FE0A7C /* CoverFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				96CB321A1D381C8000FE0A7C /* AppDelegate.m */,
 				96CB322D1D381D4B00FE0A7C /* CollectionViewController.h */,
 				96CB322E1D381D4B00FE0A7C /* CollectionViewController.m */,
+				96CB32301D38218700FE0A7C /* CoverFlowLayout.h */,
+				96CB32311D38218700FE0A7C /* CoverFlowLayout.m */,
 				96CB321F1D381C8000FE0A7C /* Main.storyboard */,
 				96CB32221D381C8000FE0A7C /* Assets.xcassets */,
 				96CB32241D381C8000FE0A7C /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96CB321B1D381C8000FE0A7C /* AppDelegate.m in Sources */,
+				96CB32321D38218700FE0A7C /* CoverFlowLayout.m in Sources */,
 				96CB32181D381C8000FE0A7C /* main.m in Sources */,
 				96CB322F1D381D4B00FE0A7C /* CollectionViewController.m in Sources */,
 			);
